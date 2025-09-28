@@ -1,12 +1,12 @@
 import java.util.Scanner; 
-public class LabFirst{ 
+public class LabT1{ 
  
  public static void main(String[] args) { 
     Scanner in= new Scanner(System.in); 
     int var=-1;
 
     while ( var!=0){
-    System.out.print("Input number(1-3):\n 1-float/float\n 2-int/float\n 3-float/int\n 00-exit\nChoose:\n ");
+    System.out.print("Input number(1-3):\n 1-float/float\n 2-int/float\n 3-float/int\n 0-exit\nChoose:\n ");
     var = in.nextInt();
     
     switch (var) {
